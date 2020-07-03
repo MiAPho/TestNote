@@ -1,10 +1,3 @@
-<https://joytas.net/programming/website/website05>(解説付き
-
-```html
-<!DOCTYPE html>
-<html>
-<head>
-  <meta charset="UTF-8"/>
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>レスポンシブデザイン</title>
   <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
@@ -37,7 +30,7 @@
 </body>
 </html>
 ```
-
+********
 ```CSS
 header{
   position:relative;
