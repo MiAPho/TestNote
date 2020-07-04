@@ -1,3 +1,4 @@
+	```html
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>レスポンシブデザイン</title>
   <link rel="stylesheet" type="text/css" href="http://yui.yahooapis.com/3.18.1/build/cssreset/cssreset-min.css">
