@@ -1,0 +1,56 @@
+
+```html
+<!DOCTYPE html>
+<html lang="ja" dir="ltr">
+	<head>
+		<meta charset="utf-8">
+		<title>サンプル</title>
+	</head>
+	<body>
+		<h1>サンプルプログラム</h1>
+		<input type="number" id="num1"><br>
+		<input type="number" id="num2">
+		<button>calc</button>
+		<p></p>
+		<div></div>
+	<script>
+		const div=document.querySelector('div');
+		const h1=document.querySelector('h1');
+		const num1=document.querySelector('#num1');
+		const num2=document.querySelector('#num2');
+		const btn = document.querySelector('button');
+		const result=document.querySelector('p');
+		div.style.width='200px';
+		div.style.height='200px';
+		div.style.background='blue';
+		div.addEventListener('mouseover',()=>{
+			div.style.transform='rotate(960deg)';
+			div.style.transitionDuration='4s';
+		});
+		div.addEventListener('mouseout',()=>{
+			div.style.transform='rotate(0deg)';
+			div.style.transitionDuration='1s';
+		});
+		btn.addEventListener('mouseover',()=>{
+			let a=num1.value;
+			let b=num2.value;
+			result.innerText=
+			`${a}+${b}=${parseInt(a)+parseInt(b)}`;
+		});
+		btn.addEventListener('mouseout',()=>{
+			result.innerText="";
+		});
+		h1.addEventListener('mouseover',()=>{
+			h1.style.transitionDuration='1s';
+			h1.style.fontSize='50px';
+			h1.style.color="blue";
+		});
+		h1.addEventListener('mouseout',()=>{
+			h1.style.transitionDuration='0s';
+			h1.style.fontSize='2em';
+			h1.style.color="black";
+		});
+	</script>
+	</body>
+</html>
+```
