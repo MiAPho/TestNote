@@ -1,0 +1,20 @@
+```Python
+for num in range(1,30,2):
+    print('Pythonは',num,'倍楽しい',sep="")
+    ```
+実行結果
+Pythonは1倍楽しい
+Pythonは3倍楽しい
+Pythonは5倍楽しい
+Pythonは7倍楽しい
+Pythonは9倍楽しい
+Pythonは11倍楽しい
+Pythonは13倍楽しい
+Pythonは15倍楽しい
+Pythonは17倍楽しい
+Pythonは19倍楽しい
+Pythonは21倍楽しい
+Pythonは23倍楽しい
+Pythonは25倍楽しい
+Pythonは27倍楽しい
+Pythonは29倍楽しい
